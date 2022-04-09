@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6273544402933753087}
   - component: {fileID: 5560525473981818800}
   - component: {fileID: 962249406272573194}
-  - component: {fileID: 2337642009523264548}
+  - component: {fileID: 91448863}
   m_Layer: 0
   m_Name: jogador
   m_TagString: Untagged
@@ -132,7 +132,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &2337642009523264548
+--- !u!114 &91448863
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6273544402933753086}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fddee2c83ae71b34988fc66a96ab4b62, type: 3}
+  m_Script: {fileID: 11500000, guid: b546c9b35e504b5458b7aae999373e66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   aceleracao: 3

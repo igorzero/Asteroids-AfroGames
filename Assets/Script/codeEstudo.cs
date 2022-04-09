@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class movimentoJogador : MonoBehaviour
+public class codeEstudo : MonoBehaviour
 {
     public float velocidade;
     public GameObject meteoro;
@@ -26,11 +26,6 @@ public class movimentoJogador : MonoBehaviour
         {
             transform.position = transform.position + new Vector3(0.0f, -velocidade * Time.deltaTime, 0.0f);
             //transform.position += new Vector3(10.0f, 0.0ff); 
-        }
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-        Instantiate(meteoro, new Vector3 (3.0f, 3.0f, 0.0f), Quaternion.identity);
         }
     }
 }            

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class comportamento : MonoBehaviour
+public class comportamentoJogador : MonoBehaviour
 {
   public float aceleracao = 3.0f;
   public float velocidadeMaxima = 180.0f;
